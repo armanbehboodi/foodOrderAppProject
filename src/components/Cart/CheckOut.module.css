@@ -1,0 +1,60 @@
+.formBox{
+    margin-top: 25px;
+    padding-top: 15px;
+    border-top: 2px solid #8a2b06;
+}
+.mainBox{
+    margin-bottom: 10px;
+}
+.labels{
+    font-weight: bold;
+    margin-right: 15px;
+}
+.inputs{
+    border: 2px solid #dedddd;
+    border-radius: 5px;
+    padding: 2px 10px;
+}
+.buttons{
+    background-color: white;
+    border: 1px solid #8a2b06;
+    border-radius: 25px;
+    padding: 10px 20px;
+    margin:10px 10px 0 0;
+    font-weight: bold;
+    font-family: 'Source Sans Pro', sans-serif;
+    cursor: pointer;
+}
+.confirm{
+    background-color: #8a2b06;
+    color: white;
+}
+.confirm:hover{
+    background-color: #860909;
+}
+.cancel{
+    color: #8a2b06;
+}
+.cancel:hover{
+    background-color: #8a2b06;
+    color: white;
+}
+.error{
+    border: 2px solid #bd0808;
+}
+.buttons:disabled{
+    cursor: not-allowed;
+    background-color: #8e5135;
+}
+.errorPara{
+    color: red;
+    font-weight: bold;
+    font-size: 0.8em;
+    margin: 0 0 10px 0;
+}
+.successPara{
+    color: green;
+    font-weight: bold;
+    font-size: 1em;
+    margin: 0 0 10px 0;
+}
